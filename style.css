@@ -1,0 +1,283 @@
+* {
+  border-radius: 0;
+  box-sizing: border-box;
+  padding: 0;
+
+}
+
+.header{
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 1280px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.header-menu :nth-child(5) {
+    border-radius: 40px;
+    background: #4CE0D7;
+    padding: 19px 32px 7px 32px;
+    margin-top: -20px;
+}
+
+.header-menu :nth-child(6) {
+   
+    margin-top: -13px;
+
+}
+
+.header-nav {
+    color: #262626;
+    font-family: "Poppins" "san-serif";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo-header {
+    width: 234px;
+    height: 49px;
+    margin-top: 38px;
+}
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/main.png);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  width: 1280px;
+  height: 600px;
+  border-radius: 20px;
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+
+.home-1 {
+    margin-right: 600px;
+    margin-left: 62px;
+}
+
+.home-h1 {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.76px;
+}
+
+.title , 
+.title-2{
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 627px
+}
+
+.title span {
+    background: linear-gradient(90deg, #4CE0D7 0%, #8BA9F4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-2 {
+    font-size: 20px;
+    width: 492px;
+}
+
+.topics {
+    color: #262626;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+.card-title ,
+.card-button{
+    color: #262626;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-button {
+    font-size: 12px;
+    padding: 10px 40px 9px 40px;
+    border-radius: 40px;
+    background: #4CE0D7;
+    text-decoration: none;
+}
+
+.card-1 {
+    width: 204px;
+    height: 291px;
+    border-radius: 20px;
+    background: #b0eaed;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    width: 1280px;
+    margin-left: 80px;
+    margin-bottom: 175px;
+}   
+
+.r1  {
+    margin-top: 50px;
+}
+
+.r2  {
+    margin-top: 36px;
+}
+.r3  {
+    margin-top: 39px;
+}
+.r4  {
+    margin-top: 49px;
+}
+.r5  {
+    margin-top: 54px;
+}
+.r6  {
+    margin-top: 37px;
+}
+
+
+.gallery {
+    background-image: url(images/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 300px ;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: 75px;
+    position: relative;
+}
+
+.fashion {
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 40px;
+    background: #262626;
+    padding: 10px 80px;
+    position: absolute;
+    top: 25px;
+    left: 56px;
+    text-decoration: none;
+}
+
+.container-blog {
+    margin-top: 80px;
+}
+
+.posting {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin-left:80px;
+    margin-top: 25px;
+    align-items: center;
+}
+.posting > img {
+    border-radius: 50px;
+    width: 70.797px;
+    height: 82.09px;
+}
+
+.smallest {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+}
+.username {
+    color: #BCBCBC;
+    font-family:"Poppins";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.R1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post ,
+.tit {
+    color: #262626;
+    font-family:"Poppins";
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+
+.tit {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.post {
+    width: 1280px;
+    flex-shrink: 0;
+}
+
+.blogs {
+    margin-left: 130px;
+}
+
+.readmore {
+    color: #4CE0D7;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.88px;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-left: 69px;
+}
